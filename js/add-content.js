@@ -38,3 +38,10 @@ if (horaAtual > 18) {
 }
 
 document.write("<h3>" + mensagem + "</h3>")
+
+/*Como usar Objetos e seus métodos:
+Ex: document.write("Boa Noite!")
+
+- document é o Objeto
+- O "." é o operador de membro, ou seja você consegue acessar os membros/método de um objeto utilizando o ponto
+- write é um método do Objeto document e dentro dos () é onde fica os parâmetros deste método*/
