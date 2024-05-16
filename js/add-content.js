@@ -1,14 +1,14 @@
 /*1 - O que é um Script?
 Script é praticamente uma série de intruções que possuem um passo a passo para o computador
 
-Em um script é bom detalhar os objetivos e dividir uma série de tarefas para serem realizadas*/
+Em um script é bom detalhar os objetivos e dividir uma série de tarefas para serem realizadas
 
-/*2- Intruções:
+2- Intruções:
 A instrução é um comando individual que o computador deve seguir
 SEMPRE TERMINAR COM ; 
-Quando as instruções são colocadas em chaves ficam conhecidas como blocos de códigos que normalmente agrupam várias instruções.*/
+Quando as instruções são colocadas em chaves ficam conhecidas como blocos de códigos que normalmente agrupam várias instruções.
 
-/*3 - Objetos 
+3 - Objetos 
 Dentro de programação cada coisa física no mundo pode ser representada como um objeto, 
 e para criar um modelo funcional de um objeto cada objeto deve possuir suas:
 - Propriedades;
@@ -23,40 +23,45 @@ São meio que uma maneira do computador alertar e dizer: "Ei, isso acabou de aco
 Quando algum evento específico acaba acontecendo, o programador pode usar ele para disparar uma seção específica do código
 
 3.3 - Métodos:
-São perguntas ou instruções resumidamente, onde podem conter diversos instruções*/
+São perguntas ou instruções resumidamente, onde podem conter diversos instruções
 
 
-/**O Objeto 'document' é muito util até porque ele representa uma página HTML, assim podendo acessar e alterar o contúdo que usuários vêm na página 
+O Objeto 'document' é muito util até porque ele representa uma página HTML, assim podendo acessar e alterar o contúdo que usuários vêm na página 
  Exemplo:*/
-var hoje = new Date(); // Cria um novo objeto Date
-var horaAtual = hoje.getHours(); // Verifica a hora atual
-var mensagem;
+var today = new Date(); // Cria um novo objeto Date
+var hourNow = today.getHours(); // Verifica a hora atual
+var greeting;
 
 // exibe a mensagem apropriada de acordo com a hora atual
-if (horaAtual > 18) {
-    mensagem = "Boa Noite!";
-} else if(horaAtual > 12) {
-    mensagem = "Boa Tarde!";
-} else if(horaAtual > 0){
-    mensagem = "Bom dia!";
+if (hourNow > 18) {
+    greeting = "Good evening!";
+} else if(hourNow > 12) {
+    greeting = "Good afternoon!";
+} else if(hourNow > 0){
+    greeting = "Good Moorning!";
 } else{
-    mensagem = "Bem vindo";
+    greeting = "Welcome!";
 }
 
-document.write("<h3>" + mensagem + "</h3>")
+document.write("<h3>" + greeting + "</h3>")
 
 /*Como usar Objetos e seus métodos:
 Ex: document.write("Boa Noite!")
 
 - document é o Objeto
 - O "." é o operador de membro, ou seja você consegue acessar os membros/método de um objeto utilizando o ponto
-- write é um método do Objeto document e dentro dos () é onde fica os parâmetros deste método*/
+- write é um método do Objeto document e dentro dos () é onde fica os parâmetros deste método
 
-/*4 - Variável:
+4 - Variável:
 servem para armazenar dados necessários temporariamente, e podem variar sempre que um script é executado
 
 4.1 - Declaração:
 tem que usar a palavra chave "var" e depois o nome da variável
 Ex: var numero;
 Pode até atribuir um valor a ela
-Ex: numero = 5;*/
+Ex: numero = 5;
+
+4.2 - Tipo de Dados:
+Existe 3:
+O tipo númerico, String e Boolean
+*/
