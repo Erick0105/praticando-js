@@ -9,4 +9,4 @@ elTitle.innerText = title;
 var elNote = document.getElementById("note");
 elNote.innerHTML = message; //O método innerHTML é adiciona um elemento HTML inteiro
 
-/*Nas ultimas 4 linhas se pega 2 elementos pelo seu ID e o texto desses elementos é atualizado de acordo com as variáveis*/
+/*Nas ultimas 4 linhas se pega 2 elementos pelo seu ID e o conteudo desses elementos é atualizado de acordo com as variáveis*/
