@@ -6,6 +6,6 @@ message = "See our upcoming range";
 
 var elName = document.getElementById("name");
 elName.textContent = username;
-elnote = document.getElementById("note");
-elnote.textContent = message;
+elNote = document.getElementById("note");
+elNote.textContent = message;
 /*Nas ultimas 4 linhas se pega 2 elementos pelo seu ID e o texto desses elementos é atualizado de acordo com as variáveis*/
