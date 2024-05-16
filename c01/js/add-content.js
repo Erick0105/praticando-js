@@ -50,18 +50,4 @@ Ex: document.write("Boa Noite!")
 
 - document é o Objeto
 - O "." é o operador de membro, ou seja você consegue acessar os membros/método de um objeto utilizando o ponto
-- write é um método do Objeto document e dentro dos () é onde fica os parâmetros deste método
-
-4 - Variável:
-servem para armazenar dados necessários temporariamente, e podem variar sempre que um script é executado
-
-4.1 - Declaração:
-tem que usar a palavra chave "var" e depois o nome da variável
-Ex: var numero;
-Pode até atribuir um valor a ela
-Ex: numero = 5;
-
-4.2 - Tipo de Dados:
-Existe 3:
-O tipo númerico, String e Boolean
-*/
+- write é um método do Objeto document e dentro dos () é onde fica os parâmetros deste método */
