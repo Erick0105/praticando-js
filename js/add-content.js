@@ -21,3 +21,20 @@ Métodos:
 São perguntas ou instruções resumidamente, onde podem conter diversos instruções*/
 
 
+/**O Objeto 'document' é muito util até porque ele representa uma página HTML, assim podendo acessar e alterar o contúdo que usuários vêm na página 
+ Exemplo:*/
+var hoje = new Date();
+var horaAtual = hoje.getHours();
+var mensagem;
+
+if (horaAtual > 18) {
+    mensagem = "Boa Noite!";
+} else if(horaAtual > 12) {
+    mensagem = "Boa Tarde!";
+} else if(horaAtual > 0){
+    mensagem = "Bom dia!";
+} else{
+    mensagem = "Bem vindo";
+}
+
+document.write("<h3>" + mensagem + "</h3>")
