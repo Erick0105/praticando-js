@@ -1,6 +1,9 @@
 /* A 1 primeira1 linha é apenas para declaração e armazenamento de Strings nelas*/
 var inStock = true, shipping = false;
 
+//* Se quiser trocar os valores é simples só ver a seguir
+inStock = false, shipping = true;
+
 var elStock = document.getElementById("stock");
 elStock.className = inStock;
 var elShip = document.getElementById("shipping");
