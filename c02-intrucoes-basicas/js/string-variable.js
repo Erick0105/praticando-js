@@ -1,8 +1,5 @@
-/*As 4 primeiras linhas são apenas para declaração e armazenamento de Strings nelas*/
-var username;
-var message;
-username = "Molly";
-message = "See our upcoming range";
+/*A 1 primeira linha é apenas para declaração e armazenamento de Strings nelas*/
+var username = "Molly", message = "See our upcoming range";
 
 var elName = document.getElementById("name");
 elName.textContent = username;
